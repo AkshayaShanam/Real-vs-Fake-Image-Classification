@@ -204,3 +204,93 @@ Real-vs-Fake-Image-Classification/
 └── README.md
 ```
 ---
+
+### 🛠️ Tech Stack
+
+Programming Language
+Python
+Deep Learning
+TensorFlow
+Keras
+MobileNetV3Small
+Convolutional Neural Networks (CNN)
+Transfer Learning
+Data Processing
+NumPy
+Visualization
+Matplotlib
+Seaborn
+Model Evaluation
+Scikit-learn
+Development Environment
+Kaggle Notebook
+Jupyter Notebook
+Version Control
+Git
+GitHub
+---
+
+### 🚀 Getting Started
+
+### Clone Repository
+
+bashgit clone https://github.com/AkshayaShanam/Real-vs-Fake-Image-Classification.git
+cd Real-vs-Fake-Image-Classification
+
+### Install Dependencies
+
+bashpip install -r requirements.txt
+
+
+### 📦 Requirements
+
+Create a requirements.txt file containing:
+
+numpy
+matplotlib
+tensorflow
+seaborn
+scikit-learn
+ipython
+
+---
+
+### 📚 Learning Outcomes
+
+This project strengthened practical knowledge in:
+
+Deep Learning
+Convolutional Neural Networks
+Transfer Learning
+MobileNetV3 Architecture
+Image Classification
+TensorFlow and Keras
+Model Fine-Tuning
+Regularization
+Hyperparameter Selection
+Early Stopping
+Model Evaluation
+Confusion Matrix Analysis
+Precision and Recall
+F1-Score
+Python
+Git and GitHub
+Kaggle GPU Environment
+
+---
+
+### 👩‍💻 Author
+
+Shanam Akshaya
+
+🎓 B.Tech – Computer Science & Engineering (Data Science)
+📧 Email: 23211a67b1@bvrit.ac.in
+🔗 GitHub: AkshayaShanam
+🔗 LinkedIn: Akshaya Shanam
+
+---
+
+### 
+⭐ If you found this project helpful, please consider giving it a Star!
+
+Thank you for visiting Real vs AI-Generated Fake Image Classification! 🤖🧠
