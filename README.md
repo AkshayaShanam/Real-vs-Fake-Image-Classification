@@ -207,12 +207,12 @@ Real-vs-Fake-Image-Classification/
 
 ### 🛠️ Tech Stack
 
--Programming Language : Python
--Deep Learning : TensorFlow, Keras, MobileNetV3Small, Convolutional Neural Networks (CNN), Transfer Learning
--Data Processing :NumPy, Visualization, Matplotlib, Seaborn
--Model Evaluation : Scikit-learn
--Development Environment : Kaggle Notebook, Jupyter Notebook
--Version Control : Git, GitHub
+- Programming Language : Python
+- Deep Learning : TensorFlow, Keras, MobileNetV3Small, Convolutional Neural Networks (CNN), Transfer Learning
+- Data Processing :NumPy, Visualization, Matplotlib, Seaborn
+- Model Evaluation : Scikit-learn
+- Development Environment : Kaggle Notebook, Jupyter Notebook
+- Version Control : Git, GitHub
 ---
 
 ### 📚 Learning Outcomes
