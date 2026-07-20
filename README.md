@@ -219,23 +219,20 @@ Real-vs-Fake-Image-Classification/
 
 This project strengthened practical knowledge in:
 
--Deep Learning
--Convolutional Neural Networks
--Transfer Learning
--MobileNetV3 Architecture
--Image Classification
--TensorFlow and Keras
--Model Fine-Tuning
--Regularization
--Hyperparameter Selection
--Early Stopping
--Model Evaluation
--Confusion Matrix Analysis
--Precision and Recall
--F1-Score
--Python
--Git and GitHub
--Kaggle GPU Environment
+- Deep Learning
+- Convolutional Neural Networks
+- Transfer Learning
+- MobileNetV3 Architecture
+- Image Classification
+- TensorFlow and Keras
+- Model Fine-Tuning
+- Regularization
+- Hyperparameter Selection
+- Early Stopping
+- Model Evaluation
+- Confusion Matrix Analysis
+- Precision and Recall
+- F1-Score
 
 ---
 
