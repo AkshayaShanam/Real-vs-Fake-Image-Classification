@@ -40,6 +40,25 @@ This project addresses this problem using a lightweight Deep Learning model base
 
 ---
 
+## 📊 Dataset
+
+This project uses the CIFAKE dataset, which contains approximately 120,000 images belonging to two classes:
+
+- 🖼️ REAL
+- 🤖 AI-GENERATED FAKE
+
+```text
+          CIFAKE Dataset
+          │
+          ├── REAL
+          └── AI-GENERATED FAKE
+```
+The images are resized to:
+- 32 × 32 pixels
+- 3 RGB channels
+
+---
+
 ## ✨ Features
 
 ### 🖼️ Image Classification
@@ -118,3 +137,70 @@ The model is evaluated using:
                     │                             │
                     │   REAL / AI-GENERATED FAKE  │
                     └─────────────────────────────┘
+```
+---
+### 🧠 Model Architecture
+
+The project uses MobileNetV3Small as the backbone feature extractor.
+
+```text
+Input Image
+     │
+     ▼
+32 × 32 × 3 Image
+     │
+     ▼
+MobileNetV3Small (ImageNet Pretrained Weights)
+     │
+     ▼
+Feature Extraction
+     │
+     ▼
+Global Max Pooling
+     │
+     ▼
+Batch Normalization
+     │
+     ▼
+Dense Layer — 256 Neurons + ReLU
+     │
+     ▼
+Dropout — 40%
+     │
+     ▼
+Dense Layer — 64 Neurons + ReLU
+     │
+     ▼
+Output Layer — 1 Neuron + Sigmoid
+     │
+     ▼
+REAL / FAKE
+```
+---
+
+### 🔄 Transfer Learning
+
+Pretrained ImageNet weights are used to initialize MobileNetV3Small, allowing the model to leverage previously learned visual features and fine-tune them for the real-vs-fake classification task.
+
+---
+
+### 📂 Project Structure
+
+```text
+Real-vs-Fake-Image-Classification/
+│
+├── Project Code/
+│   │
+│   ├── Batch-128/
+│   │
+│   ├── Batch-16/
+│   │
+│   ├── Batch-32/
+│   │
+│   ├── Batch-64/
+│   │
+│   └── Batch Sizes
+│
+└── README.md
+```
+---
